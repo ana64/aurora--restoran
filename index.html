@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="sr">
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta name="discription" content=""/>
+    <meta name="keywords" content=""/>
+    <title>Restoran Aurora</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"/>
+    <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+    <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+     <link rel="shortcut icon" href="img/logo.ico" type="image/ico">
+</head>
+<body>
+    <!--navigacija-->
+    <header> 
+    <nav class="white " role="navigation">
+        <div class="nav-wrapper container">
+          <a href="index.html" class="brand-logo"> <img src="img/logo.jpg" alt="logo"/> </a>
+          <ul class="right hide-on-med-and-down">
+           <li><a href="index.html">Početna</a></li>
+           <li><a href="cenovnik.html">Cenovnik</a></li>
+
+           <li><a href="autor.html">Autor</a></li>
+           
+          </ul>
+         <ul id="nav-mobile" class="sidenav">
+            <li><a href="index.html">Početna</a></li>
+            <li><a href="cenovnik.html">Cenovnik</a></li>
+            
+            <li><a href="autor.html">Autor</a></li>
+          </ul>
+          <a href="#" data-target="nav-mobile" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+        </div>
+    </nav>
+    </header>
+    <!--kraj navigacije-->
+    <main> 
+      <!--deo sa pozadinskom slikom-->
+       <div id="index-banner" class="parallax-container">
+        <div class="section no-pad-bot">
+          <div class="container mar-y">
+            <div class="row center">
+              <h1 class="header col s12 white-text">Restoran Aurora </h1>
+              <h2 class="header col s12 white-text">Mesto koje budi sva vaša čula. </h2>
+              <a href="#kontakt" id="download-button" class="btn-large pulse s12 waves-effect waves-light red darken-1">Rezervišite odmah !</a>
+             </div>
+            </div>
+          </div>
+        <div class="parallax"><img src="img/restoran.jpg" alt="restoran"></div>
+      </div>
+      <!--kraj dela sa pozadinskom slikom-->
+      <div class="container ">
+        <div class="section">
+          <!--   Usluge   -->
+          <div class="row">
+            <h3 class="header center col s12 black-text"> Usluge koje nudimo </h3>
+            <!--proslave-->
+             <div class="col s12  m6  l4">
+              <div class="icon-block">
+                <h2 class="center brown-text"><i class="material-icons">cake</i></h2>
+                  <h5 class="center">Sale za proslave</h5>
+                  <p class="light"> Restoran  organizuje poslovne ručkove, proslave, svadbe i slična okupljanja.
+                    Raspolažemo salama od <mark>160 i 450 mesta </mark>
+                    Sala je opremljena centralnom klimatizacijom i ventilacijom.
+                    Meniji po izboru, već od <mark>18 EUR </mark>po osobi.
+                    <mark> Cene su podložne promenama i željama gostiju. </mark>
+                 </p>
+                 <a class="waves-effect waves-light btn modal-trigger center-align  yellow darken-1 brown-text " href="#modal1">Pogledajte galeriju slika</a>
+                 <!-- Modal Structure -->
+                 <div id="modal1" class="modal">
+                     <div class="modal-content">
+                         <h2>Sala za proslave</h2>
+                           <h3>Galerija slika</h3>
+                         <div class="row">
+                             <div class="col s12 m3">
+                               <img class="responsive-img" src="img/mladenci.jpg" alt="mladenci">
+                             </div>
+                             <div class="col s12 m3">
+                               <img class="responsive-img" src="img/vencanje.jpg " alt="vencanje">
+                             </div>
+                              <div class="col s12 m3">
+                                <img class="responsive-img" src="img/svadbenidekor.jpg" alt="svadbeni dekor">
+                            </div>
+                            <div class="col s12 m3">
+                             <img class="responsive-img" src="img/sala-za-proslave.jpg" alt="sala-za-proslave">
+                           </div>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                     <a href="#!" class="modal-close waves-effect waves-green btn-flat">Zatvori</a>
+                    </div>
+               </div> 
+                </div>
+              </div>
+            <!--sale za proslave kraj-->
+            <div class="col s12 m6 l4">
+              <div class="icon-block">
+                <h2 class="center brown-text"><i class="material-icons">child_care</i></h2>
+                <h5 class="center">Igraonica za decu</h5>
+                <p class="light">Ima li šta lepše i prijatnije za vašu decu od igranja u prirodi?Dečija igraonica na 
+                  otvorenom uključuje raznovrsan sadržaj za mališane kao što su: fudbalski poligon, sankanje, pesak, ljuljaške,
+                   tobogani, trambolina, zip line.Takođe,postoji mogućnost da  Vaši mališani koriste sadržaje igraonice 
+                   koja se nalazi u unutrašnjosti objekta
+                </p>
+                <a class="waves-effect waves-light btn modal-trigger  yellow darken-1 brown-text  " href="#modal2">Pogledajte galeriju slika</a>
+
+                <!-- Modal Structure -->
+                <div id="modal2" class="modal">
+                 <div class="modal-content">
+                       <h2>Igraonica za decu</h2>
+                      <h3>Galerija slika</h3>
+                         <div class="row">
+                          <div class="col s12 m3">
+                              <img class="responsive-img" src="img/deca.jpg" alt="deca">
+                         </div>
+                         <div class="col s12 m3">
+                              <img class="responsive-img" src="img/deciji rodjendan.jpg " alt="deciji rodjendan">
+                        </div>
+                        <div class="col s12 m3">
+                            <img class="responsive-img" src="img/igraonica na otvorenom.jpg" alt="igraonica na otvorenom">
+                        </div>
+                         <div class="col s12 m3">
+                           <img class="responsive-img" src="img/igraonica.jpg" alt="igraonica">
+                        </div>
+                         </div>
+                 </div>
+                    <div class="modal-footer">
+                     <a href="#!" class="modal-close waves-effect waves-green btn-flat">Zatvori</a>
+                    </div>
+                </div> 
+              </div>
+            </div>
+            <!--igraonica za decu kraj -->
+            <!--restoran-->
+             <div class="col s12 m12 l4">
+              <div class="icon-block">
+                <h2 class="center brown-text"><i class="material-icons">restaurant</i></h2>
+                <h5 class="center">Restoran</h5>
+                <p class="light"> Restoran  je mesto uzbudljivih gastronomskih
+                   susreta domaćinskog i kosmopolitskog, lokalnog i nacionalnog. Mesto gde se tradicija prepliće sa modernošću,ali je, pre svega,
+                    vaša druga kuća, puna prepoznatljivih boja i poznatih ukusa detinjstva.
+                </p>
+                <a class="waves-effect waves-light btn modal-trigger yellow darken-1 brown-text  " href="#modal3">Pogledajte galeriju slika</a>
+
+                <!-- Modal Structure -->
+                <div id="modal3" class="modal">
+                 <div class="modal-content">
+                  <h2>Restoran</h2>
+                  <h3>Galerija slika</h3>
+                   <div class="row">
+                    <div class="col s12 m3">
+                     <img class="responsive-img" src="img/Restoran (2).jpg" alt="Restoran">
+
+                    </div>
+                    <div class="col s12 m3">
+                     <img class="responsive-img" src="img/prikazRestorana.jpg " alt="prikaz restorana ">
+                    </div>
+                    <div class="col s12 m3">
+                   <img class="responsive-img" src="img/slikaRestorana.jpg" alt="slika restorana ">
+                    </div>
+                    <div class="col s12 m3">
+                     
+                     <img class="responsive-img" src="img/ambijentrestorana.jpg" alt="ambijent restorana">
+                    </div>
+                 </div>
+                 </div>
+                 <div class="modal-footer">
+                   <a href="#!" class="modal-close waves-effect waves-green btn-flat">Zatvori</a>
+                 </div>
+               </div> 
+              </div>
+            </div>
+            <!--restoran kraj-->
+          </div>
+        </div>
+      </div>
+      <!--  deo sa utiscima gostiju-->
+     <div class="container mar-y">
+         <div class="row">
+             <h3 class=" center col s12 black-text"> Rekli su o nama </h3>
+               <div class=" col s12 m6 l6 "> 
+                <ul class="collection">
+                  <li class="collection-item avatar">
+                   <i class="material-icons red-text text-lighten-1 left">account_circle</i>
+                    <span class="title red-text text-lighten-1 ">Đorđevići </span>
+                    <p>Sve je fenomenalno</p>
+                    <p>Želimo opet da dođemo!</p>
+                    <a href="#" class="secondary-content"><i class="material-icons yellow-text text-lighten-1">grade</i> 5</a>
+                  </li>
+                 </ul>
+               </div>
+               <div class=" col s12 m6   offset-l6"> 
+              <ul class="collection">
+                <li class="collection-item avatar">
+                 <i class="material-icons red-text text-lighten-1 left">account_circle</i>
+                  <span class="title red-text text-lighten-1 ">Jovanović Jovana</span>
+                  <p>Usluga i hrana su odlični. </p>
+                  <a href="#!" class="secondary-content"><i class="material-icons yellow-text text-lighten-1">grade</i> 5</a>
+                </li>
+               </ul>
+              </div>
+              <div class=" col s12 m6 l6 "> 
+            <ul class="collection">
+              <li class="collection-item avatar">
+               <i class="material-icons red-text text-lighten-1 left">account_circle</i>
+                <span class="title red-text text-lighten-1">Nikola Ristić</span>
+                <p>Divna hrana,ljubazno osoblje, </p>
+                <p>Sve kako treba. </p>
+                <a href="#!" class="secondary-content"><i class="material-icons yellow-text text-lighten-1">grade</i> 5</a>
+              </li>
+             </ul>
+             </div>
+              <div class=" col s12 m6   offset-l6"> 
+              <ul class="collection">
+                 <li class="collection-item avatar">
+                <i class="material-icons red-text text-lighten-1 left">account_circle</i>
+                <span class="title red-text text-lighten-1 "> Petrići</span>
+                <p> Sve je za svaku pohvalu. </p>
+              <a href="#!" class="secondary-content"><i class="material-icons yellow-text text-lighten-1">grade</i> 5</a>
+            </li>
+              </ul>
+            </div>
+          </div>
+       </div>
+      <!--deo sa kontakt formom-->
+      <div  id="kontakt"class="container mar-y">  
+        <div class="row">
+          <h3 class="header center col s12 black-text">Kontakt </h3>
+          <form class="col s12 m6 ped ">
+            <!--pocetak-->
+            <div class="row">
+             <div class="input-field col s6">
+               <input  id="first_name" type="text" class="validate">
+               <label for="first_name ">Unesite Vaše ime </label>
+             </div>
+             <div class="input-field col s6">
+               <input id="last_name" type="text" class="validate">
+               <label for="last_name">Unesite Vaše prezime</label>
+             </div>
+            </div>
+            <!--kraj-->
+           <div class="row">
+             <div class="input-field col s12">
+               <input id="telephone" type="tel" class="validate">
+               <label for="telephone">Unesite broj Vašeg telefona</label>
+              </div>
+            </div>
+            <!--kraj-->
+            <div class="row">
+             <div class="input-field col s6">
+                <input type="text" class="datepicker ">
+                <label for="text">Izaberite datum</label>
+              </div>
+               <div class="input-field col s6">
+                <input type="text" class="timepicker ">
+                <label for="text">Izaberite vreme</label>
+              </div>
+            </div>
+             <!--kraj-->
+             <div class="row">
+                <div class=" col s6">
+                  <p>
+                   <label>
+                      <input type="checkbox" />
+                      <span>Sto za jednu osobu</span>
+                    </label>
+                   </p>
+                   <p>
+                     <label>
+                      <input type="checkbox" />
+                      <span>Sto za tri osobe</span>
+                    </label>
+                  </p>
+               </div>
+                <div class="col s6">
+                   <p>
+                    <label>
+                     <input type="checkbox" />
+                      <span>Sto za dve osobe </span>
+                   </label>
+                  </p>
+                  <p>
+                   <label>
+                     <input type="checkbox" />
+                     <span>Sto za četri osobe </span>
+                   </label>
+                  </p>
+                 </div>
+              </div>
+              <!--kraj-->
+               <div class="row">
+                 <div class="input-field col s12">
+                   <textarea id="textarea1" class="materialize-textarea"></textarea>
+                    <label for="textarea1">Ostavite poruku</label>
+                 </div>
+                 <div class="col 12">
+                  <button  class="btn waves-effect waves-light red darken-1 white-text " type="submit" name="action">Rezervišite
+                  <i class="material-icons right">send</i>
+                  </button>
+                </div>  
+               </div>
+               
+          </form>
+        <div class="col s6 border  pozadina hide-on-small-only"> </div>
+       </div>
+      </div>
+    </main>
+     <!--zaglavlje-->
+      <footer class="page-footer  brown">
+        <div class="container">
+          <div class="row">
+            <!--mapa-->
+            <div class="col l6 m12 s12">
+               <iframe   frameborder="0" height="200" scrolling="no"
+                src="https://maps.google.com?saddr=Kneza Milosa 70, 11000 Beograd&z=12&output=embed" max-width="500">
+                </iframe>
+             </div>
+             <!--navigacija-->
+             <div class="col l3 s12">
+               <h5 class="white-text">Meni</h5>
+               <ul>
+                <li><a class="white-text" href="index.html">Početna</a></li>
+                <li><a class="white-text" href="cenovnik.html">Cenovnik</a></li>
+                <li><a class="white-text" href="autor.html">Autor</a></li>
+                <li><a class="white-text" href="sitemap.xml" target="_blank">Sitemap</a></li>
+               </ul>
+              </div>
+             <!--kontakt-->
+             <div class="col l3 s12">
+              <h5 class="white-text">Kontakt</h5>
+              <ul>
+                <li>Kneza Miloša 70,11000 Beograd</li>
+                <li> 011/0641214242</li>
+                <li>8722314</li>
+                <li>
+                  <a class="white-text" href="https://www.facebook.com/">Facebook</i>
+                  </a>
+                </li>
+                <li>
+                  <a class="white-text" href="https://www.instagram.com/">Instagram</i>
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <!--kraj-->
+            </div>
+           </div>
+           <div class="footer-copyright">
+            <div class="container">
+            <span>Ana Pavlović 52/19</span>
+           </div>
+         </div>
+      </footer>
+      <!--ucitan js-->
+      <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+      <script src="js/materialize.js"></script>
+      <script src="js/init.js"></script>
+      <script> 
+      M.AutoInit();
+      document.addEventListener('DOMContentLoaded', function() {
+      var elems = document.querySelectorAll('.datepicker');
+        var instances = M.Datepicker.init(elems, options);
+       }); 
+       </script>
+      <script> 
+      M.AutoInit();
+       document.addEventListener('DOMContentLoaded', function() {
+        var elems = document.querySelectorAll('.timepicker');
+         var instances = M.Timepicker.init(elems, options);
+         });
+      </script>
+      <script>
+          M.AutoInit();
+       document.addEventListener('DOMContentLoaded', function() {
+        var elems = document.querySelectorAll('.modal');
+          var instances = M.Modal.init(elems, options);
+            });
+      </script>
+</body>
+</html>

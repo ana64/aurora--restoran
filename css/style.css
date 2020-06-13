@@ -1,0 +1,73 @@
+
+nav a,nav .brand-logo,nav ul a {
+    color: rgba(0,0,0,0.5);
+}
+nav ul a:hover {
+    background-color: #fff;
+    color: rgba(0, 0, 0, 0.7);
+}
+.mar-y{
+    margin:5% auto;
+}
+.ped{
+    padding:10% ;
+}
+.navbar-nav{
+    padding-left: 70%; 
+}
+.navbar-brand{
+    font-size: 2.1rem;
+}
+.boja1{  
+background-color:#795548;
+}
+.boja2{
+    background-color: rgba(51, 51, 51, 0.08);
+}
+.boja3{
+    background-color: rgba(51, 51, 51, 0.6);  
+}
+.bojaTeskt{
+   color: #e53935;
+}
+.pozadina{
+    background-image: url(../img/kontakt.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+   height: 550px;
+   
+}
+mark{
+    color:#E53935;
+    background-color: #fff;
+}
+.carousel-item img {
+    max-height: 400px;
+}
+.card .card-image img{
+    height: 200px;
+}
+.card-panel{
+    box-shadow: none;
+   
+}
+.pozSef{
+    background-image: url("../img/kuvar.png");
+    background-color:#f6f6f6 ;
+    background-repeat: no-repeat;
+    background-position: right center;
+}
+.pozAutor{
+    background-image: url("../img/pozAutor.jpg");
+    background-color:#f6f6f6 ;
+    background-repeat: no-repeat;
+   background-size:cover ;
+   background-position:right top ;
+}
+@media only screen and (max-width: 850px) {
+    .pozSef{
+        background-image: none;
+       
+    }
+}
